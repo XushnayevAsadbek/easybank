@@ -1,0 +1,84 @@
+#section1 {
+    background-image: url("../../img/Group44.png");
+    background-repeat: no-repeat;
+    background-position: top -300px right -550px;
+    padding-bottom: 170px;
+}
+
+.section1-heading {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2D314D;
+    width: 394px;
+    padding-top: 170px;
+}
+
+.section1-text {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+    margin: 24px 0 36px 0;
+    width: 447px;
+}
+.section1-btn{
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border-radius: 22px;
+    border: none;
+    padding: 8px 36px 8px 33px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.section1-btn:active{
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    border-radius: 22px;
+}
+
+@media(max-width:376px) {
+    #section1 {
+        background-image: url("../../img/Group44.png");
+        background-repeat: no-repeat;
+        background-position: top -1500px ;
+        padding-bottom: 88px;
+    }
+
+    .section1-heading {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 47px;
+        text-align: center;
+        letter-spacing: -0.714286px;
+        color: #2D314D;
+        max-width: 327px;
+        padding-top: 822px;
+        
+        
+    }
+
+    .section1-text {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.234375px;
+        color: #9597A5;
+        margin-top: 16px ;
+        max-width: 327px;
+       
+        margin-bottom: 32px;
+    }
+
+    .section1-btn{
+        margin-left: 80px;
+    }
+}

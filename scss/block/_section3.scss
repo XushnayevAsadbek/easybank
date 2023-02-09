@@ -1,0 +1,104 @@
+.section3-heading {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.714286px;
+    color: #2D314D;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.section3-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+
+    &__card {
+
+        &--text1 {
+            font-size: 10px;
+            line-height: 18px;
+            letter-spacing: -0.15625px;
+            color: #9597A5;
+            margin-top: 25px;
+            padding-left: 24px;
+            margin-bottom: 8px;
+        }
+
+        &--text2 {
+            font-style: normal;
+            font-weight: 100;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: -0.285714px;
+            color: #2D314D;
+            padding-left: 24px;
+            margin-bottom: 8px;
+        }
+
+        &--text3 {
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: -0.203125px;
+            color: #9597A5;
+            padding: 0 0 24px 24px;
+        }
+    }
+}
+
+@media(max-width:376px) {
+    .section3-heading {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: -0.571429px;
+        color: #2D314D;
+    }
+
+    .section3-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+
+        &__card {
+
+            &--img {
+                width: 327px;
+                border-radius: 5px 5px 0px 0px;
+               
+            }
+
+            &--text1 {
+                font-size: 10px;
+                line-height: 18px;
+                letter-spacing: -0.15625px;
+                color: #9597A5;
+                margin-top: 25px;
+                padding-left: 31px;
+                margin-bottom: 8px;
+            }
+
+            &--text2 {
+                font-style: normal;
+                font-weight: 100;
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: -0.285714px;
+                color: #2D314D;
+                padding-left: 31px;
+                margin-bottom: 8px;
+            }
+
+            &--text3 {
+                font-size: 13px;
+                line-height: 18px;
+                letter-spacing: -0.203125px;
+                color: #9597A5;
+                padding: 0 0 24px 31px;
+            }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+#footer {
+    background: #2D314D;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+
+    &-img {
+
+        &--icon {
+            margin-top: 55.3px;
+            padding: 0 13.33px 0 0;
+        }
+    }
+
+    &__item {
+
+        &--list {
+            margin-bottom: 8px;
+        }
+
+        &--link {
+
+            font-size: 15px;
+            line-height: 26px;
+            letter-spacing: -0.234375px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__btn {
+        background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+        border-radius: 22px;
+        border: none;
+        padding: 8px 36px 8px 33px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 28px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    &__text {
+        font-size: 15px;
+        line-height: 26px;
+        text-align: right;
+        letter-spacing: -0.234375px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin-top: 24px;
+    }
+}
+
+@media(max-width:376px){
+    .footer-box {
+        display:block;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    
+    
+        &-img {
+            padding-left: 100px;
+    
+            &--icon {
+                margin-top: 55.3px;
+                padding: 0 13.33px 0 26px;
+            }
+        }
+
+    
+        &__item {
+                 margin-top: 32px;
+            &--list {
+                
+                margin-bottom: 8px;
+                text-align: center;
+            }
+    
+            &--link {
+                text-align: center;
+                font-size: 15px;
+                line-height: 26px;
+                letter-spacing: -0.234375px;
+                color: #FFFFFF;
+            }
+        }
+    
+        &__btn {
+            background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+            border-radius: 22px;
+            border: none;
+            padding: 8px 36px 8px 33px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 28px;
+            color: #FFFFFF;
+            cursor: pointer;
+            margin-left: 85px;
+        }
+    
+        &__text {
+            font-size: 15px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: -0.234375px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+            margin-top: 24px;
+        }
+    } 
+}

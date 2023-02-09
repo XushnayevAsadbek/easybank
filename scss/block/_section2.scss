@@ -1,0 +1,119 @@
+#section2 {
+    background: #F4F5F7;
+    padding-bottom: 94px;
+}
+
+.section2-heading {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 64px;
+    letter-spacing: -0.714286px;
+    color: #2D314D;
+    padding-top: 96px;
+}
+
+.section2-text {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.28125px;
+    color: #9597A5;
+    margin-top: 16px;
+    padding: 0 24px;
+}
+
+.section2-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+
+
+    &__card {
+
+
+        &--heading {
+            font-style: normal;
+            font-weight: 100;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -0.428571px;
+            color: #2D314D;
+            margin: 40px 0 26px 0;
+        }
+
+        &--text {
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: -0.25px;
+            color: #9597A5;
+
+        }
+
+    }
+}
+
+@media(max-width:376px) {
+
+    #section2{
+        padding-bottom: 64px;
+    }
+    .section2-heading {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: -0.571429px;
+        color: #2D314D;
+        padding-top: 64px;
+        
+    }
+
+    .section2-text {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.234375px;
+        color: #9597A5;
+        margin-top: 16px;
+    }
+
+    .section2-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+        margin-top: 50px;
+
+
+        &__card {
+
+            &--img{
+              
+                padding: 0 140px;
+            }
+
+            &--heading {
+                font-style: normal;
+                font-weight: 100;
+                font-size: 20px;
+                line-height: 28px;
+                text-align: center;
+                letter-spacing: -0.357143px;
+                color: #2D314D;
+                margin: 40px 0 26px 0;
+            }
+
+            &--text {
+                font-size: 15px;
+                line-height: 25px;
+                text-align: center;
+                letter-spacing: -0.234375px;
+                color: #9597A5;
+                 padding: 0 24px;
+
+            }
+
+        }
+    }
+}
